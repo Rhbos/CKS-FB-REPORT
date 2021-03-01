@@ -640,13 +640,13 @@ logo24 = """
 logo25 = """
 \033[1;93m  ˜”*°•.˜”*°• Rh •°*”˜.•°*”˜
 \033[1;93m ˜”*°•.˜”*°• king •°*”˜.•°*”˜
-\033[1;93m ░C░y░b░e░r░ ░k░i░n░g░
-\033[1;93m           ░s░q░u░a░d░
-\033[1;93m       ░R░h░ ░k░i░n░g░
-\033[1;93m ░C░y░b░e░r░ ░k░i░n░g░
-\033[1;93m            ░s░q░u░a░d░
+\033[1;93m ˜”*°•.˜”*°• cyber •°*”˜.•°*”˜
+\033[1;93m ˜”*°•.˜”*°• king •°*”˜.•°*”˜
+\033[1;93m ˜”*°•.˜”*°• squad •°*”˜.•°*”˜
+\033[1;93m ˜”*°•.˜”*°• hackers •°*”˜.•°*”˜
+\033[1;93m           ░T░e░a░m░
 
-\033[1;91m--> GITHUB :- https://github.com/Rhking
+\033[1;91m--> Tools credit :- Rh@king
 
 \033[1;92m--> FACEBOOK :- cyber king squad
 
@@ -654,7 +654,7 @@ logo25 = """
 
 \033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
-\033[1;95m--> NOTE  :- this tools only use cyber king squad:-)
+\033[1;95m--> NOTE  :- this report tools only use cyber king squad official member:-)
 
 """
 
@@ -703,7 +703,7 @@ print  """
 \033[1;95m@@@@@@@@@@squad@@@@@@@@@@@
 \033[1;94m@@@@@@@@@@Team@@@@@@@@@@@@
 \033[1;96m@@@@@@@@@@@@@@@@@@@@@@@@@@
-\033[1;94m@@@@@@@@@@@@@@@@@@@@@@@@@@
+\033[1;94m££££-ETHICAL-HACKERS-£££££
 \033[1;95m@@@@@@@@@@@@@@@@@@@@@@@@@@
 \033[1;91m@@@@@@@@@Rh@@@@@@@@@@@@@@@
 \033[1;96m@@@@@@@@King@@@@@@@@@@@@@@
@@ -713,8 +713,8 @@ print  """
 
 """
 
-CorrectUsername = "cyber"
-CorrectPassword = "kingsquad"
+CorrectUsername = "RH"
+CorrectPassword = "KING"
 
 loop = 'true'
 while (loop == 'true'):
@@ -743,9 +743,9 @@ def login():
 	print logo25
 	print "1.\x1b[1;95mLogin  Facebook  "
         time.sleep(0.05)
-        print "2.\x1b[1;95mWhat is acces Token How To Get Acces Token Free"
+        print "@.\x1b[1;95mRH@KING"
         time.sleep(0.05)
-        print "3.\x1b[1;95mLogin Using Token"
+        print "@.\x1b[1;95methical-HACKERS"
         time.sleep(0.05)
 	print "0.\033[1;95mExit           "
 	pilih_login()
@@ -779,7 +779,7 @@ def login1():
 		print logo25
 		jalan('  \033[1;91mNote Do Not Use Your Personal Account' )
 		jalan(' \033[1;92mCreate New Account For Login Safely' )
-		print "\033[1;93mNew Commands Use It For Cloning"
+		print "\033[1;93mNew Commands Use It For FB REPORT PROFILE"
 		print('	' )
 		id = raw_input('\x1b[1;94mFacebook Email/Pass : \x1b[1;94m')
 		pwd = raw_input('\x1b[1;94mPassword  \x1b[1;94m')
@@ -865,7 +865,7 @@ def menu():
         time.sleep(0.05)
         print "033[1;97m==========================\033[1;97m"
         time.sleep(0.05)
-	print "1 .\x1b[1;94m\033[1;94mStart Cloning   "
+	print "1 .\x1b[1;94m\033[1;94mStart FB REPORT   "
        
           
         time.sleep(0.05)
@@ -905,7 +905,7 @@ def crack():
 		login()
 	os.system('clear')
 	print logo25
-	print "1 .\x1b[1;93mStart Cloning    "
+	print "1 .\x1b[1;93mStart FB REPORT    "
         time.sleep(0.05)
 	print "0. \033[1;93mBack"
 	pilih_crack()
@@ -918,7 +918,7 @@ def pilih_crack():
 	elif peak =="1":
 		os.system('clear')
 		print logo25
-		jjt = raw_input("\033[1;92mEnter ID : \033[1;92m")
+		jjt = raw_input("\033[1;92mEnter target I'd report : \033[1;92m")
 		print "►▸▹►▸▹►▸▹►►▸▹►▸▹►▸▹►▸▹◃◄◅◃◄◅◃◄◅▸▹◃◄◅◃◄◅◃◄◅"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
